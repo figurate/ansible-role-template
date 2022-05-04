@@ -1,0 +1,8 @@
+## Role tasks for Amazon Linux 2..
+- name: Install extra packages for enterprise linux (EPEL)
+  command: amazon-linux-extras install epel
+
+- name: Install s3fs-fuse
+  yum:
+    name: s3fs-fuse
+    state: present

@@ -1,0 +1,4 @@
+# Default configuration variables..
+
+# @var s3fs_mounts: [] # a list of S3 buckets and filesystem mount paths
+#s3fs_mounts: []

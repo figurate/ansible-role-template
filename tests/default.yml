@@ -1,0 +1,4 @@
+## Role unit tests
+- hosts: all
+  roles:
+    - ../
